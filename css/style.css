@@ -21,47 +21,55 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(21, 16, 16, 0.85);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #3de773;
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: aqua;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  color: rgb(190, 237, 19);
 }
 
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color: orangered;
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-}
+  
+  width: 50%;
+  height: 50%;
+  border-radius: 40px;
+}img:hover {
+  opacity: 0.7;}
+
+
 
 p {
   font-size: 1em;
+  color: #fff;
 }
 
 a {
-  color: black;
+  color: rgb(237, 229, 239);
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: floralwhite;
 }
 
 @media only screen and (max-width: 1042px) {
